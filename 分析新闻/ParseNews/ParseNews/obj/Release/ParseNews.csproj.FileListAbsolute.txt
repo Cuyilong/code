@@ -31,7 +31,6 @@ E:\爬虫\ParseNews_8-21_11-22\ParseNews\obj\Release\ParseNews.csprojResolveAsse
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\bin\Release\ParseNews.exe.config
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\bin\Release\ParseNews.exe
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\bin\Release\ParseNews.pdb
-C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\bin\Release\log4net.xml
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\obj\Release\ParseNews.csprojResolveAssemblyReference.cache
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\obj\Release\ParseNews.exe
 C:\Users\heavenlw\Documents\GitHub\code\分析新闻\ParseNews\ParseNews\obj\Release\ParseNews.pdb
