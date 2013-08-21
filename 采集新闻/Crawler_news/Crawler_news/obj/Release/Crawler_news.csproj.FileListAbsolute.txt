@@ -28,3 +28,12 @@ E:\爬虫\Crawler_news\Crawler_news\obj\Release\Crawler_news.csproj.GenerateReso
 E:\爬虫\Crawler_news\Crawler_news\obj\Release\Crawler_news.exe
 E:\爬虫\Crawler_news\Crawler_news\obj\Release\Crawler_news.pdb
 E:\爬虫\Crawler_news\Crawler_news\obj\Release\Crawler_news.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\bin\Release\Crawler_news.exe.config
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\obj\Release\Crawler_news.exe
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\obj\Release\Crawler_news.pdb
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\bin\Release\Crawler_news.exe
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\bin\Release\Crawler_news.pdb
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\bin\Release\log4net.xml
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\obj\Release\Crawler_news.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\obj\Release\Crawler_news.Properties.Resources.resources
+C:\Users\周恒达\Documents\GitHub\code\采集新闻\Crawler_news\Crawler_news\obj\Release\Crawler_news.csproj.GenerateResource.Cache

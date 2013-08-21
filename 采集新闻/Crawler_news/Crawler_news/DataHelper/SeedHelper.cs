@@ -15,8 +15,8 @@ namespace Crawler_news.DataHelper
         int _timeOutNormalUrl = 0;
         private Queue<MyUri> _UriSeedQueue;
         private Queue<MyUri> _UriNewsQueue;
-        private Thread[] _threads_seed;
-        private Thread[] _threads_news;
+        private Thread[] _threadsSeed;
+        private Thread[] _threadsNews;
         DateTime _lastDequeueNewsTime;
         public SeedHelper()
         {
@@ -32,15 +32,15 @@ namespace Crawler_news.DataHelper
         /// </summary>
         private void CreateThreads_News()
         {
-            _threads_news = new Thread[40];
+            _threadsNews = new Thread[40];
             try
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    if (_threads_news[i] == null || _threads_news[i].ThreadState != ThreadState.Suspended)
+                    if (_threadsNews[i] == null || _threadsNews[i].ThreadState != ThreadState.Suspended)
                     {
-                        _threads_news[i] = new Thread(ThreadFunction_news);
-                        _threads_news[i].Start();
+                        _threadsNews[i] = new Thread(ThreadFunction_news);
+                        _threadsNews[i].Start();
                     }
                 }
             }
@@ -60,6 +60,11 @@ namespace Crawler_news.DataHelper
                 {
                     NewsHelper newsHelper = new NewsHelper();
                     int result = NewsHelper.ParseNewsUri(newsUri);
+                    _allKdUrls += 1;
+                    if (result == 1)
+                        _timeOutNormalUrl += 1;
+                    else if (result == 2)
+                        _timeOutKdUrl += 1;
                 }
                 else
                     if (isFinished())
@@ -69,6 +74,19 @@ namespace Crawler_news.DataHelper
                     }
                     else
                         Thread.Sleep(1 * 1000);
+            }
+            int threadLiving = 0;
+            foreach (var thread in _threadsNews)
+                if (thread.ThreadState == ThreadState.Aborted || thread.ThreadState == ThreadState.Stopped)
+                    threadLiving++;
+            if (threadLiving <= 1)
+            {
+                log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                log.Debug(string.Format("结束采集{0}", DateTime.Now));
+                log.Debug(string.Format("全部链接数{0}", _allKdUrls));
+                log.Debug(string.Format("全部链接数{0}", _allKdUrls));
+                log.Debug(string.Format("kd超时链接数{0}", _timeOutKdUrl));
+                log.Debug(string.Format("门户超时链接数{0}", _timeOutNormalUrl));
             }
         }
         /// <summary>
@@ -104,13 +122,13 @@ namespace Crawler_news.DataHelper
         /// </summary>
         private void CreateThreads_seed()
         {
-            _threads_seed = new Thread[5];
+            _threadsSeed = new Thread[5];
             for (int i = 0; i < 1; i++)
             {
-                if (_threads_seed[i] == null || _threads_seed[i].ThreadState != ThreadState.Suspended)
+                if (_threadsSeed[i] == null || _threadsSeed[i].ThreadState != ThreadState.Suspended)
                 {
-                    _threads_seed[i] = new Thread(ThreadFunction_seed);
-                    _threads_seed[i].Start();
+                    _threadsSeed[i] = new Thread(ThreadFunction_seed);
+                    _threadsSeed[i].Start();
                 }
             }
         }
@@ -129,12 +147,12 @@ namespace Crawler_news.DataHelper
                     ParseSeedUri(uri);
                 }
                 else
-                    //if (IsSeedHandled())
-                    //{
-                    //    AbordSeedThreads();
-                    //    break;
-                    //}
-                    //else
+                    if (IsSeedHandled())
+                    {
+                        AbordSeedThreads();
+                        break;
+                    }
+                    else
                         Thread.Sleep(1 * 1000);
             }
         }
@@ -154,7 +172,7 @@ namespace Crawler_news.DataHelper
         /// </summary>
         private void AbordSeedThreads()
         {
-            foreach (var thread in _threads_seed)
+            foreach (var thread in _threadsSeed)
             {
                 if (thread != null&&thread.ThreadState!=ThreadState.Running)
                     thread.Abort();
@@ -300,7 +318,7 @@ namespace Crawler_news.DataHelper
         /// 
         private void AbordNewsThreads()
         {
-            foreach (var thread in _threads_news)
+            foreach (var thread in _threadsNews)
             {
                 if (thread != null&&thread.ThreadState!=ThreadState.Running)
                     thread.Abort();
