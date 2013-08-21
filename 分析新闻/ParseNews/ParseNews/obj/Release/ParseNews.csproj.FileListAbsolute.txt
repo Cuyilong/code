@@ -1,0 +1,30 @@
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\ParseNews\ParseNews\bin\Release\ParseNews.exe
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\ParseNews\ParseNews\bin\Release\ParseNews.pdb
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\ParseNews\ParseNews\obj\Release\ParseNews.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\ParseNews\ParseNews\obj\Release\ParseNews.exe
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\ParseNews\ParseNews\obj\Release\ParseNews.pdb
+C:\Users\heavenlw\Desktop\9.0\ParseNews\ParseNews\bin\Release\ParseNews.exe
+C:\Users\heavenlw\Desktop\9.0\ParseNews\ParseNews\bin\Release\ParseNews.pdb
+C:\Users\heavenlw\Desktop\9.0\ParseNews\ParseNews\obj\Release\ParseNews.exe
+C:\Users\heavenlw\Desktop\9.0\ParseNews\ParseNews\obj\Release\ParseNews.pdb
+E:\爬虫\ParseNews_8-16_10-53\ParseNews\bin\Release\ParseNews.exe
+E:\爬虫\ParseNews_8-16_10-53\ParseNews\bin\Release\ParseNews.pdb
+E:\爬虫\ParseNews_8-16_10-53\ParseNews\obj\Release\ParseNews.exe
+E:\爬虫\ParseNews_8-16_10-53\ParseNews\obj\Release\ParseNews.pdb
+N:\ParseNews_8-16_15-42\ParseNews\bin\Release\ParseNews.exe
+N:\ParseNews_8-16_15-42\ParseNews\bin\Release\ParseNews.pdb
+N:\ParseNews_8-16_15-42\ParseNews\obj\Release\ParseNews.exe
+N:\ParseNews_8-16_15-42\ParseNews\obj\Release\ParseNews.pdb
+C:\Users\heavenlw\Desktop\发布\ParseNews_8-20_16-40\ParseNews\bin\Release\ParseNews.exe
+C:\Users\heavenlw\Desktop\发布\ParseNews_8-20_16-40\ParseNews\bin\Release\ParseNews.pdb
+C:\Users\heavenlw\Desktop\发布\ParseNews_8-20_16-40\ParseNews\obj\Release\ParseNews.csprojResolveAssemblyReference.cache
+C:\Users\heavenlw\Desktop\发布\ParseNews_8-20_16-40\ParseNews\obj\Release\ParseNews.exe
+C:\Users\heavenlw\Desktop\发布\ParseNews_8-20_16-40\ParseNews\obj\Release\ParseNews.pdb
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\bin\Release\ParseNews.exe.config
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\bin\Release\ParseNews.exe
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\bin\Release\ParseNews.pdb
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\bin\Release\log4net.dll
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\bin\Release\log4net.xml
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\obj\Release\ParseNews.exe
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\obj\Release\ParseNews.pdb
+E:\爬虫\ParseNews_8-21_11-22\ParseNews\obj\Release\ParseNews.csprojResolveAssemblyReference.cache

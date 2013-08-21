@@ -1,0 +1,46 @@
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+C:\Users\周恒达\Documents\Visual Studio 2012\Projects\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+C:\Users\周恒达\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+C:\Users\周恒达\Desktop\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csprojResolveAssemblyReference.cache
+C:\Users\周恒达\Desktop\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+C:\Users\周恒达\Desktop\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+E:\爬虫\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+E:\爬虫\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+E:\爬虫\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+E:\爬虫\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe.config
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\obj\Debug\Crawler_news.Properties.Resources.resources
+C:\Users\heavenlw\Desktop\final\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csproj.GenerateResource.Cache
+E:\爬虫\l\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe.config
+E:\爬虫\l\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+E:\爬虫\l\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+E:\爬虫\l\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+E:\爬虫\l\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+E:\爬虫\l\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csprojResolveAssemblyReference.cache
+E:\爬虫\l\Crawler_news\Crawler_news\obj\Debug\Crawler_news.Properties.Resources.resources
+E:\爬虫\l\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csproj.GenerateResource.Cache
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe.config
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\obj\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\obj\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\bin\Debug\Crawler_news.pdb
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\obj\Debug\Crawler_news.Properties.Resources.resources
+C:\Users\heavenlw\Desktop\发布\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csproj.GenerateResource.Cache
+E:\爬虫\Crawler_news\Crawler_news\bin\Debug\Crawler_news.exe.config
+E:\爬虫\Crawler_news\Crawler_news\bin\Debug\log4net.dll
+E:\爬虫\Crawler_news\Crawler_news\bin\Debug\log4net.xml
+E:\爬虫\Crawler_news\Crawler_news\obj\Debug\Crawler_news.Properties.Resources.resources
+E:\爬虫\Crawler_news\Crawler_news\obj\Debug\Crawler_news.csproj.GenerateResource.Cache
