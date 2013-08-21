@@ -78,8 +78,8 @@ namespace Crawler_news.DataHelper
                     DateTime now = DateTime.Now;
                     response = (HttpWebResponse)wr.GetResponse();
                     TimeSpan t = DateTime.Now - now;
-                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                    log.Debug(string.Format("{0}请求响应时间--->{1}",uri.AbsoluteUri, t.ToString()));
+                    //log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                    //log.Debug(string.Format("{0}请求响应时间--->{1}",uri.AbsoluteUri, t.ToString()));
                     //Console.WriteLine(t);
                     //wr.Abort();
                     time++;
@@ -135,8 +135,8 @@ namespace Crawler_news.DataHelper
                     DateTime now = DateTime.Now;
                     response = request.GetResponse() as HttpWebResponse;
                     TimeSpan t = DateTime.Now - now;
-                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                    log.Debug(string.Format("{0}请求响应时间--->{1}",uri.AbsoluteUri, t.ToString()));
+                    //log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                    //log.Debug(string.Format("{0}请求响应时间--->{1}",uri.AbsoluteUri, t.ToString()));
                     //Console.WriteLine(t);
                     //request.Abort();
                 }
