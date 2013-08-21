@@ -80,11 +80,11 @@ namespace ParseNews
                                     news = mysqlHelper.SelectNews(title.Id);
                                     person.News = news;
                                     persons.Add(person);
-                                    if (person.PersonName.Equals("李某"))
-                                    {
-                                        log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                                        log.Debug(string.Format("{0}名字长度等于2", person.PersonName));
-                                    }
+                                    //if (person.PersonName.Equals("李某"))
+                                    //{
+                                    //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                                    //    log.Debug(string.Format("{0}名字长度等于2", person.PersonName));
+                                    //}
                                 }
                             }
                             else
@@ -99,12 +99,12 @@ namespace ParseNews
                                 news = mysqlHelper.SelectNews(title.Id);
                                 person.News = news;
                                 persons.Add(person);
-                                if (person.PersonName.Equals("李某"))
-                                {
-                                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                                    log.Debug(string.Format("{0}名字长度大于2",person.PersonName));
-                                    log.Debug(string.Format("{0}名字长度为{1}", name,name.Length));
-                                }
+                                //if (person.PersonName.Equals("李某"))
+                                //{
+                                //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                                //    log.Debug(string.Format("{0}名字长度大于2",person.PersonName));
+                                //    log.Debug(string.Format("{0}名字长度为{1}", name,name.Length));
+                                //}
 
                             }
                         }
@@ -148,36 +148,36 @@ namespace ParseNews
             realnamelist.Sort(Comparison);
             if (realnamelist.Count == 0)
             {
-                if (name == "李某")
-                {
-                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                    log.Debug("realnamelist是空的");
-                }
+                //if (name == "李某")
+                //{
+                //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                //    log.Debug("realnamelist是空的");
+                //}
                 return name;
             }
                 
-            if (name == "李某")
-            {
-                log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                foreach(var nameLabel in realnamelist)
-                    log.Debug(string.Format("{0}---〉{1},{2},{3}", nameLabel.Name,nameLabel.Count,mc.Count, (double)nameLabel.Count / (double)mc.Count));
-            }
+            //if (name == "李某")
+            //{
+            //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+            //    foreach(var nameLabel in realnamelist)
+            //        log.Debug(string.Format("{0}---〉{1},{2},{3}", nameLabel.Name,nameLabel.Count,mc.Count, (double)nameLabel.Count / (double)mc.Count));
+            //}
             if ((double)realnamelist[0].Count / (double)mc.Count > 0.6)
             {
-                if (name == "李某")
-                {
-                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                    log.Debug(string.Format("大于0.6的名字：{0}", realnamelist[0].Name));
-                }
+                //if (name == "李某")
+                //{
+                //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                //    log.Debug(string.Format("大于0.6的名字：{0}", realnamelist[0].Name));
+                //}
                 return realnamelist[0].Name.Trim();
             }
             else
             {
-                if (name == "李某")
-                {
-                    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
-                    log.Debug("第一个李某某比例没大于0.6");
-                }
+                //if (name == "李某")
+                //{
+                //    log4net.ILog log = log4net.LogManager.GetLogger("MyLogger");
+                //    log.Debug("第一个李某某比例没大于0.6");
+                //}
                 return name;
             }
 
