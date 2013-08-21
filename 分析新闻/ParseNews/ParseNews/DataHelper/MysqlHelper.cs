@@ -98,24 +98,6 @@ namespace ParseNews.DataHelper
         {
             string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
             oneperson.News.Content = Regex.Replace(regex1, "'", "\'");
-
-            //string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'"); string regex1 = Regex.Replace(oneperson.News.Content, @"\", "");
-            //oneperson.News.Content = Regex.Replace(regex1, "'", "\'");
-
-
-
-
-
-
-
-
-
             string insertPost_sql = string.Format(@"INSERT INTO info_person (personName, nameCount,weight,label,time,news_forum,label2,groupTime,
             news_title,news_url,news_time,news_content) 
             VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}','{8}','{9}','{10}','{11}')",
